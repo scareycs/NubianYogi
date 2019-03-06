@@ -19,7 +19,7 @@ li {
 	color: inherit;
 }
 
-ul {
+header ul {
 	display: inline;
 }
 
@@ -44,12 +44,12 @@ section {
 	color: black;
 	padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 
 .hero {
 	color: white;
-	height: 42vh;
+	height: 48vh;
 	background: url("https://picsum.photos/200/300/?random");
 	background-repeat: no-repeat;
 	padding-top: 50vh;
@@ -65,7 +65,7 @@ section {
 	padding: 15px;
 }
 
-.subscribe {
+.subscribeIcon {
 	position: fixed;
     bottom: 0;
     right: 0;
@@ -75,4 +75,13 @@ section {
     font-size: 25px;
     padding: 10px;
     margin: 10px;
+}
+
+.icons li {
+	display: inline-block;
+}
+
+.icons {
+	font-size: 40px;
+	padding-left: 0px;
 }
