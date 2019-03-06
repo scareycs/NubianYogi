@@ -41,14 +41,19 @@ nav ul {
 }
 
 section {
-	height: 100vh;
 	color: black;
 	padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 15%;
 }
 
 .hero {
+	color: white;
+	height: 42vh;
+	background: url("https://picsum.photos/200/300/?random");
+	background-repeat: no-repeat;
 	padding-top: 50vh;
+	background-size: cover;
 }
 
 .secTitle,
@@ -58,4 +63,16 @@ section {
 
 .secTitle {
 	padding: 15px;
+}
+
+.subscribe {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: gray;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
 }
