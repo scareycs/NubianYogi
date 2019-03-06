@@ -1,0 +1,61 @@
+html {
+	text-align: center;
+}
+
+body {
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	background: black;
+	color: white;
+}
+
+a,
+ul,
+li {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	display: inline;
+}
+
+header {
+	padding-top: 5px;
+    position: fixed;
+    padding-bottom: 5px;
+}
+
+nav ul {
+	display: none;
+}
+
+.fa-bars {
+	font-size: 20px;
+	padding-top: 4px;
+	float: left;
+	padding-left: 2%;
+}
+
+section {
+	height: 100vh;
+	color: black;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hero {
+	padding-top: 50vh;
+}
+
+.secTitle,
+.headerTitle {
+	font-size: 25px;
+}
+
+.secTitle {
+	padding: 15px;
+}
