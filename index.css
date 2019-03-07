@@ -19,9 +19,6 @@ li {
 	color: inherit;
 }
 
-header ul {
-	display: inline;
-}
 
 header {
 	padding-top: 5px;
@@ -33,7 +30,13 @@ nav ul {
 	display: none;
 }
 
-.fa-bars {
+nav li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuIcon,
+#closeIcon {
 	font-size: 20px;
 	padding-top: 4px;
 	float: left;
@@ -77,11 +80,39 @@ section {
     margin: 10px;
 }
 
-.icons li {
+.contactIcons li {
 	display: inline-block;
 }
 
-.icons {
+.contactIcons {
 	font-size: 40px;
 	padding-left: 0px;
+}
+
+input#menu {
+	display: none;
+}
+
+.navContent {
+	display: none;
+	overflow: hidden;
+}
+
+#closeIcon {
+	display: none;
+}
+
+#menu:checked + label #menuIcon {
+	display: none;
+}
+
+#menu:checked + label #closeIcon {
+	display: block;
+}
+
+#menu:checked ~ .navContent {
+	padding-left: 0px;
+	display:block;
+	width: 100%;
+	max-height: 100%;
 }
