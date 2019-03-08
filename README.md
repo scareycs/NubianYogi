@@ -1,5 +1,5 @@
 # NubianYogi
 
-#GitHub Page
+# GitHub Page
 
 https://scareycs.github.io/NubianYogi/
