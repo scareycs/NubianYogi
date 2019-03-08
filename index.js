@@ -7,6 +7,7 @@ for (var i = 0; i < demos.length; i++) {
     	$('html,body').animate({
         scrollTop: $(classify).offset().top},
         'slow'); 
+        $("#menu").prop("checked", false);
     });
 }
 
