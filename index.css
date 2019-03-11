@@ -8,8 +8,11 @@ body {
 
 header {
 	width: 100%;
-	background: black;
-	color: white;
+	background: #dcae10;
+    color: #FEFEE2;
+	padding-top: 5px;
+    position: fixed;
+    padding-bottom: 5px;
 }
 
 a,
@@ -19,20 +22,22 @@ li {
 	color: inherit;
 }
 
-
-header {
-	padding-top: 5px;
-    position: fixed;
-    padding-bottom: 5px;
-}
-
 nav ul {
 	display: none;
 }
 
 nav li {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	line-height: 50px;
+    list-style-type: none;
+    border: 1px solid;
+    padding-top: 2px;
+    /* padding-bottom: 0px; */
+    border-radius: 50%;
+    height: 57px;
+    width: 125px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    font-size: 18px;
 }
 
 #menuIcon,
@@ -65,7 +70,8 @@ section {
 }
 
 .subscribe {
-	background: gray;
+	background: #9377B2;
+	color: #1d0029;
 	padding: 20px;
 }
 
@@ -111,6 +117,7 @@ input#menu {
 }
 
 .navContent {
+	text-align: -webkit-center;
 	display: none;
 	overflow: hidden;
 }
@@ -129,7 +136,21 @@ input#menu {
 
 #menu:checked ~ .navContent {
 	padding-left: 0px;
-	display:block;
+	display:inline;
 	width: 100%;
 	max-height: 100%;
+}
+
+.athletics {
+	color: #1d0029;
+}
+
+.inspiration {
+	background: 
+}
+
+#socialJustice {
+	line-height: 30px;
+    padding-top: 5px;
+    height: 70px;
 }
