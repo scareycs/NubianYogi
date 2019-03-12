@@ -8,7 +8,7 @@ body {
 
 header {
 	width: 100%;
-	background: #dcae10;
+	background: rgba(78,57,101,0.7);
     color: #FEFEE2;
 	padding-top: 5px;
     position: fixed;
@@ -27,17 +27,18 @@ nav ul {
 }
 
 nav li {
-	line-height: 50px;
+    background: #9377B2;
+    line-height: 40px;
     list-style-type: none;
-    border: 1px solid;
+    border: 2px solid #FEC913;
     padding-top: 2px;
     /* padding-bottom: 0px; */
-    border-radius: 50%;
-    height: 57px;
-    width: 125px;
+    border-radius: 34px;
+    height: 45px;
+    width: 150px;
     margin-top: 10px;
     /* margin-bottom: 10px; */
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #menuIcon,
@@ -147,10 +148,4 @@ input#menu {
 
 .inspiration {
 	background: 
-}
-
-#socialJustice {
-	line-height: 30px;
-    padding-top: 5px;
-    height: 70px;
 }
