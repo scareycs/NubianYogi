@@ -3,12 +3,13 @@ html {
 }
 
 body {
+	font-family: 'Roboto', sans-serif;
 	margin: auto;
 }
 
 header {
 	width: 100%;
-	background: rgba(78,57,101,0.7);
+	background: rgba(78,57,101,1);
     color: #FEFEE2;
 	padding-top: 5px;
     position: fixed;
@@ -26,11 +27,20 @@ nav ul {
 	display: none;
 }
 
+nav ul::before {
+	margin-top: 10px;
+    width: 84%;
+    content: "";
+    display: block;
+    border-top: 2px solid #FEC913;
+    margin-bottom: 25px;
+}
+
 nav li {
     background: #9377B2;
     line-height: 40px;
     list-style-type: none;
-    border: 2px solid #FEC913;
+    box-shadow: 0px 2px #2A1740;
     padding-top: 2px;
     /* padding-bottom: 0px; */
     border-radius: 34px;
@@ -39,6 +49,16 @@ nav li {
     margin-top: 10px;
     /* margin-bottom: 10px; */
     font-size: 20px;
+}
+
+nav li:after {
+    /* border-radius: 18px; */
+    content: "";
+    display: block;
+    /* margin: 0 auto; */
+    width: 30%;
+    /* padding-top: 82px; */
+    border-top: 7px ridge #FEC913;
 }
 
 #menuIcon,
@@ -139,13 +159,5 @@ input#menu {
 	padding-left: 0px;
 	display:inline;
 	width: 100%;
-	max-height: 100%;
-}
-
-.athletics {
-	color: #1d0029;
-}
-
-.inspiration {
-	background: 
+	height: 100%;
 }
