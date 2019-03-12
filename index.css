@@ -85,6 +85,10 @@ section {
 	background-size: cover;
 }
 
+#hero {
+	margin-left: -20px;
+}
+
 .secTitle,
 .headerTitle {
 	font-size: 25px;
@@ -101,15 +105,24 @@ section {
 }
 
 .subscribeIcon {
-	position: fixed;
+	height: 50px;
+    position: fixed;
     bottom: 0;
     right: 0;
-    border-radius: 50%;
-    background: gray;
-    color: white;
-    font-size: 25px;
+    /* border-radius: 113%; */
+    background: url(drop.png);
+    background-repeat: no-repeat;
+    color: #FEFEE2;
+    font-size: 30px;
     padding: 10px;
     margin: 10px;
+    width: 30px;
+    background-size: 130%;
+}
+
+.fab {
+	padding-top: 15px;
+    padding-left: 8px;
 }
 
 .subscription input{
