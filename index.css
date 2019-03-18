@@ -9,13 +9,16 @@ body {
 
 header {
 	width: 100%;
-	background-color: #4E3965;
-	background-image: url("mandala.png");
-	background-size: 100%;
+    background: url(mandala.png), linear-gradient(#7A1D5F, #2B0A22);
+    background-size: 100%;
     color: #FEFEE2;
-	padding-top: 5px;
+    padding-top: 5px;
     position: fixed;
     padding-bottom: 5px;
+}
+
+p {
+	line-height: 1.5;
 }
 
 a,
@@ -29,17 +32,18 @@ nav ul {
 	display: none;
 }
 
-nav ul::before {
+/*nav ul::before {
 	margin-top: 10px;
     width: 84%;
     content: "";
     display: block;
     border-top: 2px solid #FEC913;
     margin-bottom: 25px;
-}
+}*/
 
 nav li {
-    background: #9377B2;
+	text-shadow: 0 0 3px #000000;
+    background: linear-gradient(to right, #f5cf3f, #c72598);
     line-height: 40px;
     list-style-type: none;
     box-shadow: 0px 2px #2A1740;
@@ -53,15 +57,15 @@ nav li {
     font-size: 20px;
 }
 
-nav li:after {
-    /* border-radius: 18px; */
+/*nav li:after {
+    border-radius: 18px;
     content: "";
     display: block;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     width: 30%;
-    /* padding-top: 82px; */
+     padding-top: 82px;
     border-top: 7px ridge #FEC913;
-}
+} */
 
 #menuIcon,
 #closeIcon {
@@ -111,6 +115,7 @@ section {
 }
 
 .subscribeIcon {
+    filter: drop-shadow(4px 6px 1px #b38a0f);
 	height: 50px;
     position: fixed;
     bottom: 0;
