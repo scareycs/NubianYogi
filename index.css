@@ -8,8 +8,8 @@ body {
 }
 
 header {
-	width: 100%;
-    background: url(mandala.png), linear-gradient(#7A1D5F, #2B0A22);
+    width: 100%;
+    background: linear-gradient(#f5cf3f, #c72598);
     background-size: 100%;
     color: #FEFEE2;
     padding-top: 5px;
@@ -38,39 +38,44 @@ li {
 }*/
 
 nav li {
-    background: linear-gradient(to right, #f5cf3f, #c72598);
-    line-height: 40px;
+    /* color: transparent; */
+    /* background: white; */
+    /* line-height: 40px; */
     list-style-type: none;
-    box-shadow: 0px 2px #2A1740;
+    /* box-shadow: 0px 2px #2A1740; */
     padding-top: 2px;
     /* padding-bottom: 0px; */
-    border-radius: 34px;
-    height: 45px;
+    /* border-width: 2px; */
+    /* border: 2px solid white; */
+    /* border-color: white; */
+    /* height: 41px; */
     width: 150px;
     margin-top: 10px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     font-size: 20px;
-    -webkit-transition: width 0.4s ease;
-    -moz-transition: width 0.4s ease;
-    -o-transition: width 0.4s ease;
-    transition: width 0.4s ease;
+    background: transparent;
+    border-radius: 4px;
 }
 
-nav li:hover {
-	color: white;
-	width: 170px;
-	background: linear-gradient(to right, #fbd957, #ce44a6);
-}
-
-/*nav li:after {
-    border-radius: 18px;
+nav li:after {
     content: "";
     display: block;
     margin: 0 auto;
-    width: 30%;
-     padding-top: 82px;
-    border-top: 7px ridge #FEC913;
-} */
+    width: 20%;
+    border-top: 1px solid white;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -o-transition: 2s ease;
+    transition: 2s ease;
+} 
+
+nav li:hover:after {
+    width: 100%;
+}
+
+nav li:hover {
+    background: rgba(255,255,255,0.1);
+}
 
 #menuIcon,
 #closeIcon {
@@ -78,6 +83,7 @@ nav li:hover {
 	padding-top: 4px;
 	float: left;
 	padding-left: 2%;
+    transition: 2s ease;
 }
 
 section {
@@ -171,10 +177,6 @@ input#menu {
 	max-height: 0;
 	overflow: hidden;
 	display: none;
-	-webkit-transition: max-height 0.8s ease;
-    -moz-transition: max-height 0.8s ease;
-    -o-transition: max-height 0.8s ease;
-    transition: max-height 0.8s ease;
 }
 
 
@@ -194,10 +196,6 @@ input#menu {
 	display: inline;
 	padding-left: 0px;
 	max-height: 1000px;
-	-webkit-transition: max-height 0.8s ease;
-    -moz-transition: max-height 0.8s ease;
-    -o-transition: max-height 0.8s ease;
-    transition: max-height 0.8s ease;
 }
 
 #lotus {
