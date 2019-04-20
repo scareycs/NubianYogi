@@ -62,7 +62,7 @@ nav li:after {
     display: block;
     margin: 0 auto;
     width: 20%;
-    border-top: 1px solid white;
+    border-top: 1px solid #FEFEE2;
     -webkit-transition: 2s ease;
     -moz-transition: 2s ease;
     -o-transition: 2s ease;
@@ -74,18 +74,18 @@ nav li:hover:after {
 }
 
 nav li:hover {
-    background: rgba(255,255,255,0.1);
+    background: linear-gradient(rgba(255,255,255,0.2),transparent);
 }
 
 section {
 	color: black;
 	padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .hero {
-	color: white;
+	color: #FEFEE2;
 	height: 48vh;
 	background: url("https://picsum.photos/200/300/?random");
 	background-repeat: no-repeat;
@@ -94,11 +94,11 @@ section {
 }
 
 #hero {
-    width: 252px;
-    margin: auto;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    display: flex;
+  width: 252px;
+  margin: auto;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  display: flex;
 }
 
 .secTitle,
@@ -117,25 +117,25 @@ section {
 }
 
 .subscribeIcon {
-    filter: drop-shadow(4px 6px 1px #b38a0f);
-	height: 50px;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    /* border-radius: 113%; */
-    background: url(drop.png);
-    background-repeat: no-repeat;
-    color: #FEFEE2;
-    font-size: 30px;
-    padding: 10px;
-    margin: 10px;
-    width: 30px;
-    background-size: 130%;
+  filter: drop-shadow(4px 6px 1px #b38a0f);
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* border-radius: 113%; */
+  background: url(drop.png);
+  background-repeat: no-repeat;
+  color: #FEFEE2;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  width: 30px;
+  background-size: 130%;
 }
 
 .fab {
 	padding-top: 15px;
-    padding-left: 8px;
+  padding-left: 8px;
 }
 
 .subscription input{
@@ -160,19 +160,19 @@ section {
 }
 
 .navContent {
-    padding-left: 0px;
-	text-align: -webkit-center;
-    display: none;
-    max-height: 100%;
+  padding-left: 0px;
+  text-align: -webkit-center;
+  display: none;
+  max-height: 100%;
 }
 
 #lotus {
-	height: 40px;
-    margin-top: -6px;
-    float: left;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: 40px;
+  height: 40px;
+  margin-top: -6px;
+  float: left;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 40px;
 }
 
 #siteTitle {
@@ -180,14 +180,13 @@ section {
 }
 
 #menu {
-    top: 0px;
-    right: 10px;
-    width: 40px;
-    height: 45px;
-    position: fixed;
+  top: 0px;
+  right: 10px;
+  width: 40px;
+  height: 45px;
+  position: fixed;
 
 }
-
 
 #menu span {
   display: block;
@@ -235,4 +234,19 @@ section {
   top: 13px;
   width: 0%;
   left: 50%;
+}
+
+.serviceTitle, .keyAreasTitle {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.serviceType ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+
+.serviceType li{
+  padding-top: 5px;
 }
