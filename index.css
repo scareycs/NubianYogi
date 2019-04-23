@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
 	text-align: center;
+
 }
 
 body {
@@ -8,13 +13,13 @@ body {
 }
 
 header {
-    width: 100%;
-    background: linear-gradient(#f5cf3f, #c72598);
-    background-size: 100%;
-    color: #FEFEE2;
-    padding-top: 5px;
-    position: fixed;
-    padding-bottom: 5px;
+  width: 100%;
+  background: linear-gradient(#f5cf3f, #c72598);
+  background-size: 100%;
+  color: #FEFEE2;
+  padding-top: 5px;
+  position: fixed;
+  padding-bottom: 5px;
 }
 
 p {
@@ -28,27 +33,9 @@ li {
 	color: inherit;
 }
 
-/*nav ul::before {
-	margin-top: 10px;
-    width: 84%;
-    content: "";
-    display: block;
-    border-top: 2px solid #FEC913;
-    margin-bottom: 25px;
-}*/
-
 nav li {
-    /* color: transparent; */
-    /* background: white; */
-    /* line-height: 40px; */
     list-style-type: none;
-    /* box-shadow: 0px 2px #2A1740; */
     padding-top: 2px;
-    /* padding-bottom: 0px; */
-    /* border-width: 2px; */
-    /* border: 2px solid white; */
-    /* border-color: white; */
-    /* height: 41px; */
     width: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -79,14 +66,14 @@ nav li:hover {
 
 section {
 	color: black;
-	padding-left: 5%;
-  padding-right: 5%;
+	padding-left: 2%;
+  padding-right: 2%;
   padding-bottom: 5%;
 }
 
 .hero {
 	color: #FEFEE2;
-	height: 48vh;
+	height: 100vh;
 	background: url("https://picsum.photos/200/300/?random");
 	background-repeat: no-repeat;
 	padding-top: 50vh;
@@ -253,10 +240,12 @@ section {
 }
 
 .serviceType {
-  margin: auto;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid gray;
   border-radius: 5px;
-  width: 300px;
 }
 .serviceType ul{
  padding-left: 0px;
@@ -266,15 +255,25 @@ section {
   margin-top: 20px;
 }
 
-.area1,
-.area2,
-.area3,
-.area4 {
+.area {
   border: 2px solid gray;
-  width: 500px;
   margin: auto;
 }
 
 #more {display: none;}
 
+.profImage {
+  height: 200px;
 
+  border-radius: 50%;
+}
+
+.area {
+  padding-top: 15px;
+}
+
+.areaContent {
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 20px;
+}
