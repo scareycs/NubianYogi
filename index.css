@@ -65,10 +65,11 @@ nav li:hover {
 }
 
 section {
-	color: #f7f5f6;
-	padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 5%;
+    background: #dccfcf;
+    color: #464546;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
 }
 
 .hero {
@@ -258,15 +259,15 @@ section {
 }
 
 .serviceType {
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-bottom: 10px;
-	background: #f9f9f9;
-	margin-bottom: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
-	padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background: #fdfafa;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 10px;
 }
 .serviceType ul{
  padding-left: 0px;
