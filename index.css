@@ -128,9 +128,11 @@ section {
 }
 
 .subscription input{
-	width: 100%;
-  border-radius: 5px;
-  border: transparent;
+	height: 35px;
+    padding-left: 12px;
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
 }
 
 #submit {
