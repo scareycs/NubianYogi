@@ -67,9 +67,9 @@ nav li:hover {
 section {
     background: #dccfcf;
     color: #464546;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 5%;
+    /* padding-left: 2%; */
+    /* padding-right: 2%; */
+    /* padding-bottom: 5%; */
 }
 
 .hero {
@@ -112,11 +112,11 @@ section {
 }
 
 .subscribe input{
-  font-size: 16px;
-  height: 25px;
-  width: 100%;
-  border-radius: 5px;
-  border: transparent;
+    font-size: 16px;
+    height: 30px;
+    width: 103%;
+    border-radius: 5px;
+    border: transparent;
 }
 
 #submit {
@@ -134,12 +134,12 @@ section {
 }
 
 .subContainer {
-  width: 250px;
-  margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+    width: 330px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .contactIcons li {
