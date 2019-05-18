@@ -65,7 +65,7 @@ nav li:hover {
 }
 
 section {
-    background: #dccfcf;
+    /*background: #dccfcf;*/
     color: #464546;
     /* padding-left: 2%; */
     /* padding-right: 2%; */
@@ -92,7 +92,7 @@ section {
 .secTitle,
 .headerTitle,
 .keyAreasTitle{
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .subscribe {
@@ -112,7 +112,7 @@ section {
 }
 
 .subscribe input{
-    font-size: 16px;
+    font-size: 14px;
     height: 30px;
     width: 103%;
     border-radius: 5px;
@@ -240,7 +240,7 @@ section {
 
 
 .serviceType li{
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .serviceType {
@@ -263,21 +263,33 @@ section {
 }
 
 .area {
-  border: 2px solid gray;
   margin: auto;
 }
 
 #more {display: none;}
 
 .profImage {
-  height: 200px;
-
-  border-radius: 50%;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
 }
 
 .area {
-  padding-top: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
   margin-bottom: 20px;
+  padding-right: 15px;
+}
+
+.about,
+.services {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.areaTitle {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .areaContent {
@@ -287,7 +299,7 @@ section {
 }
 
 .quote {
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
 }
 .mc-field-group label{
@@ -305,7 +317,7 @@ section {
 }
 
 #mc-embedded-subscribe {
-  font-size: 24px;
+  font-size: 20px;
   color: #FFFFFF;
   background: #ecaf4f;
 	width: 104%;
