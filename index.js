@@ -1,17 +1,9 @@
-demos= document.querySelectorAll('.navContent li');
+moveNav= document.querySelectorAll('.navContent li');
 
 
-  window.fnames = new Array(); window.ftypes = new Array();
-  fnames[0]='EMAIL';
-  ftypes[0]='email';
-  fnames[1]='FNAME';
-  ftypes[1]='text';
-  fnames[2]='LNAME';
-  ftypes[2]='text';
 
-
-for (var i = 0; i < demos.length; i++) {
-    demos[i].addEventListener('click', function() {
+for (var i = 0; i < moveNav.length; i++) {
+    moveNav[i].addEventListener('click', function() {
     	let classify = "." + this.id;
     	$('html,body').animate({
         scrollTop: $(classify).offset().top},
