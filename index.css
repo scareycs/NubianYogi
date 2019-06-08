@@ -264,6 +264,8 @@ section {
 
 .area {
   margin: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 #more {display: none;}
@@ -272,11 +274,6 @@ section {
     height: 100px;
     border-radius: 50%;
     width: 100px;
-}
-
-.area {
-  padding-top: 20px;
-  margin-bottom: 20px;
 }
 
 .about,
