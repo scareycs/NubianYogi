@@ -6,7 +6,7 @@ for (var i = 0; i < moveNav.length; i++) {
     moveNav[i].addEventListener('click', function() {
     	let classify = "." + this.id;
     	$('html,body').animate({
-        scrollTop: $(classify).offset().top},
+        scrollTop: $(classify).offset().top - 50},
         'slow');
         $('#menu').toggleClass('open');
 		$('.navContent').slideToggle('fast','linear');
