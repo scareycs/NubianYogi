@@ -19,7 +19,6 @@ $('#menu').click(function(){
   $('.navContent').slideToggle('fast','linear');
 });
 
-
  $("form").submit(function (e) {
    $.post("https://gmail.us20.list-manage.com/subscribe/post?u=ec475fa405be635371ab3e558&amp;id=9e8514d043", {
       FNAME: $("#mce-FNAME").val(),
@@ -30,5 +29,3 @@ $('#menu').click(function(){
    });
    e.preventDefault()
  });
-
-
