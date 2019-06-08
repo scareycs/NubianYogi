@@ -1,3 +1,66 @@
-@media only screen and (min-width: 1024px) {
 
+.row {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.3%
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .about {
+  	margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .row {
+  	padding-left: 20px;
+  	padding-right: 20px;
+  }
+
+  .area {
+  	padding-left: 20px;
+  	padding-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+	.serviceType {
+		/*width: 75%;*/
+	}
 }
