@@ -43,10 +43,8 @@
   }
 
   .about {
-  	margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+	width: 700px;
+   	margin: auto;
   }
   .row {
   	padding-left: 20px;
