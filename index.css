@@ -324,13 +324,7 @@ section {
 
 .services .row {
     background-color: #871A68;
-    margin-top: 0px;
     border-top-width: 50px;
-    margin-left: -;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: auto;
+    padding: 50px;
 }
