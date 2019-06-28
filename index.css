@@ -284,6 +284,8 @@ section {
   padding-left: 20px;
 }
 
+
+
 .areaTitle {
   margin-top: 20px;
   font-size: 20px;
@@ -322,8 +324,11 @@ section {
   border-radius: 5px;
 }
 
+.services {
+	background: #871A68;
+	color: white;
+}
 .services .row {
-    background-color: #871A68;
     border-top-width: 50px;
     margin: auto;
     padding: 50px;
