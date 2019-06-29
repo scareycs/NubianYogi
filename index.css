@@ -81,7 +81,7 @@ section {
 	background-size: cover;
 }
 
-#hero {
+#menuTitle {
   width: 252px;
   margin: auto;
   margin-bottom: 0px;
@@ -269,8 +269,6 @@ section {
   padding-top: 20px;
   margin-bottom: 20px;
 }
-
-#more {display: none;}
 
 .profImage {
     height: 100px;
