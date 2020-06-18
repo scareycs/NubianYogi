@@ -73,12 +73,13 @@ section {
 }
 
 .hero {
-	color: #FEFEE2;
-	height: 100vh;
-	background: url("https://picsum.photos/200/300/?random");
-	background-repeat: no-repeat;
-	padding-top: 50vh;
-	background-size: cover;
+    color: #FEFEE2;
+    height: 100vh;
+    background: url(./ProfPhotos/12.jpg);
+    background-repeat: no-repeat;
+    padding-top: 50vh;
+    background-position: center;
+    background-size: cover;
 }
 
 #menuTitle {
@@ -255,14 +256,13 @@ section {
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 10px;
-    background: #fdfafa;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     padding-top: 40px;
     color: white;
-    background: #AD2186;
+    background-size: 300px 100px;
 }
 
 .serviceType ul{
@@ -277,12 +277,6 @@ section {
   height: auto;
   background: #3D1632;
   transition: background-color 0.85s;
-}
-
-.profImage {
-    height: 100px;
-    border-radius: 50%;
-    width: 100px;
 }
 
 .about,
@@ -397,13 +391,11 @@ section {
   padding-top: 5px;
 }
 
-.profImage {
-  display: none;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
 .content {
   padding-top: 50px;
 }
+
+.aboutImage, .secImage {
+  height:200px;
+}
+
